@@ -1,0 +1,8 @@
+<div class="component-wrapper">
+    <div *ngFor="let field of fields">
+        <div class="col-md-6">
+            <span> <label>{{field.display_name + ':'}}</label></span>
+            <label>{{getValue(field.field_key)}}</label>
+        </div>
+    </div>
+</div>
